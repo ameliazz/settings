@@ -1,9 +1,8 @@
 {
 	/*
-	 *	My VSCode Extensions: Apc Customize UI++, Error Lens, Prettier
+	 *	My VSCode Extensions: Apc Customize UI++, Error Lens, Prettier, Prisma, SCSS Formatter
 	 * 	My Theme: Spacey
 	 *	My Folder Pack: Symbols
-	 *   My Font: JetBrains Mono (https://www.jetbrains.com/pt-br/lp/mono/)
 	 */
 
 	/* === Workbench Settings */
@@ -18,10 +17,12 @@
 	"window.menuBarVisibility": "hidden",
 
 	/* === Explorer Settings === */
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"package.json": ".eslint*, prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+		"package.json": ".eslint*, .prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
 		".env*": ".env*"
 	},
 
@@ -43,6 +44,7 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 
 	/* === Extensions Settings === */
+	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
 	"prettier.semi": false,
@@ -52,5 +54,17 @@
 		".editor-actions": "display: none;",
 		".actions-container": "display: none;",
 		".pane-body": "padding: 8px;"
+	},
+
+	/* === Other Settings === */
+	"files.autoSave": "onFocusChange",
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
 	}
 }
