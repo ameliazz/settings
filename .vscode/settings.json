@@ -28,7 +28,6 @@
 
 	/* === Terminal Settings === */
 	"terminal.integrated.fontSize": 16,
-	"terminal.integrated.defaultProfile.windows": "Command Prompt",
 
 	/* === Editor Settings === */
 	"editor.minimap.enabled": false,
