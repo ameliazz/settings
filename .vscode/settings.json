@@ -22,12 +22,13 @@
 	"explorer.compactFolders": false,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"package.json": ".eslint*, .prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+		"package.json": ".eslint*, .prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, jest*",
 		".env*": ".env*"
 	},
 
 	/* === Terminal Settings === */
 	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
 
 	/* === Editor Settings === */
 	"editor.minimap.enabled": false,
