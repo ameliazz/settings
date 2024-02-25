@@ -22,7 +22,7 @@
 	"explorer.compactFolders": false,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"package.json": ".eslint*, .prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, jest*",
+		"package.json": ".eslint*, .prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, jest*, .gitignore",
 		".env*": ".env*"
 	},
 
